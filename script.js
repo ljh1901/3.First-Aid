@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const botResponse = '안녕하세요! 저는 응급처치 봇입니다.';
         displayMessage(botResponse, 'received');
       } 
-      else if (lowerCaseInput.trim() === '') {
+      else if (lowerCaseInput.trim() === ' ') {
         const botResponse = '텍스트를 입력해주세요.';
         displayMessage(botResponse, 'received');
       } 
