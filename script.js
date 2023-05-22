@@ -99,6 +99,12 @@ document.addEventListener('DOMContentLoaded', function () {
         const botResponse = '의사가 정확한 진단을 내려야하지만, 환자의 상태를 말씀해주시면 응급처치 방법을 알려드릴게요.';
         displayMessage(botResponse, 'received');
       } 
+       else if (
+        lowerCaseInput.includes('아 진짜')
+      ) {
+        const botResponse = '채성원 같네';
+        displayMessage(botResponse, 'received');
+      } 
       else if (
         lowerCaseInput.includes('시발') ||
         lowerCaseInput.includes('닥쳐') ||
