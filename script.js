@@ -105,6 +105,12 @@ document.addEventListener('DOMContentLoaded', function () {
         const botResponse = '채성원 같네';
         displayMessage(botResponse, 'received');
       } 
+       else if (
+        lowerCaseInput.includes('채성원')
+      ) {
+        const botResponse = '진짜 채성원 같지 않냐';
+        displayMessage(botResponse, 'received');
+      } 
       else if (
         lowerCaseInput.includes('시발') ||
         lowerCaseInput.includes('닥쳐') ||
